@@ -1,0 +1,260 @@
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.pd-0 {
+	padding: 0;
+}
+
+.cover {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	width: 60%;
+}
+
+.white {
+	color: #FFF;
+}
+
+.fondo {
+	background-image: url(../image/large.jpg);
+	padding-top: 10%;
+	height: 600px;
+}
+
+.opacity {
+	background-color: rgba(93,101,107,0.7);
+	margin-top: -134px;
+	padding-top: 18%;
+}
+
+.nav-color {
+	background-color: transparent;
+	border: none;
+	font-size: 150%;
+	padding-top: .5%;
+}
+
+li a {
+	color: #FFF !important;
+}
+
+.titulo h1 {
+	font-size: 50px;
+}
+
+.box {
+	background-color: rgba(89, 126, 184, 0.5);
+	height: 150px;
+	width: 100%;
+	margin-bottom: 1px;
+	margin-top: 97px;
+}
+
+.box h2 {
+	margin-top: 15%;
+}
+
+.boton-inicio {
+	background-color: rgba(89, 126, 184, .0);
+	border: 2px solid #FFF;
+	margin-top: 18%;
+}
+
+#servicios {
+	padding-top: 5%;
+	padding-bottom: 8%;
+}
+
+.sky {
+	color: #97ADFF;
+}
+
+.box-icon {
+	margin-top: 14%;
+}
+
+.icon  {
+	font-size: 50px;
+}
+
+.img-circle {
+	margin: auto;
+	height: 160px;
+	width: 160px;
+	box-shadow: 5px 7px 25px rgba(136, 136, 136, 0.34);
+	padding-top: 14%;
+}
+
+.box-icon h3 {
+	margin-top: 12%;
+	margin-bottom: 8%;
+	color: #8CA3B9; 
+}
+
+.linea {
+	border-bottom: 1px solid #DAD9D9;
+	margin-top: -8%;
+}
+
+.separador {
+	position: relative;
+	bottom: -47px;
+}
+
+#video {
+	padding-top: 10%;
+	padding-bottom: 6%;
+	border-bottom: 1px solid #DAD9D9;
+}
+
+.titulo-video {
+	display: inline-block;
+	margin-bottom: 8%;
+}
+
+.logo-video {
+	width: 50%;
+	margin-top: -2%;
+}
+
+#flecha {
+	margin: 10% 40%;
+}
+
+.fondo-pasos {
+	background-image: url(../image/sec-2.jpg);
+	height: 500px;
+}
+
+.box-pasos {
+	padding: 2% 5%;
+}
+
+.box-pasos h2 {
+	margin-bottom: 3%;
+}
+
+.box-pasos h4 {
+	margin-bottom: 3%; 
+}
+
+.box-med {
+	position: relative;
+	left: -52%;
+	display: flex;
+	flex-direction: column;
+}
+
+.box-icon-med {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: #97ADFF;
+	padding: 8px;
+	margin-top: 80px;
+}
+
+.icon-med {
+	font-size: 30px;
+	color: #FFF;
+}
+
+#uso {
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.banner {
+	width: 95%;
+}
+
+.space {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.space li {
+	margin-bottom: 2%;
+}
+
+#prueba {
+	background-color: #74A3DB;
+	height: 150px;
+	padding-top: 3%;
+}
+
+.boton-final {
+	background-color: rgba(89, 126, 184, .0);
+	border: 2px solid #FFF;
+	margin-left: 40%;
+}
+
+#prueba p {
+	margin-top: 2%;
+}
+
+footer {
+	background-color: #2A3541;
+	height: 150px;
+	padding: 2% 2%;
+}
+
+footer p {
+	margin-top: 1%;
+	margin-bottom: 1%
+}
+
+.icon-blue {
+	color: #2C5A97;
+	font-size: 260%;
+	margin-left: 5%; 
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*Contacto*/
+
+#contacto {
+	background-image: url(../image/large.jpg);
+	height: 740px;
+	padding-top: 12%;
+}
+
+.formulario {
+	margin: auto;
+	background-color: #FFF;
+	height: 450px;
+	width: 55%;
+	border-top: 5px solid #97ADFF;
+	padding: 2% 12%;
+}
+
+.linea-form {
+	border-bottom: 1px solid #000;
+	width: 90%;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+input {
+	margin-left: 20px;
+}
+
+textarea {
+	margin-left: 15px;
+}
+
+.form-group  button {
+	margin-top: 10%;
+}
