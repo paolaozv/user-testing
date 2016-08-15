@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
+.margin {
+	margin: 0;
+}
+
 .cover {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -25,14 +29,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .fondo {
 	background-image: url(../image/large.jpg);
-	padding-top: 10%;
 	height: 600px;
 }
 
 .opacity {
-	background-color: rgba(93,101,107,0.7);
-	margin-top: -134px;
-	padding-top: 18%;
+	background-color: rgba(93, 101, 107, 0.7);
+	position: absolute;
+	top: 0;
+	height: 600px;
+	width: 100%;
 }
 
 .nav-color {
@@ -46,26 +51,30 @@ li a {
 	color: #FFF !important;
 }
 
+.titulo {
+	margin-top: 17%;
+}
+
 .titulo h1 {
 	font-size: 50px;
 }
 
 .box {
 	background-color: rgba(89, 126, 184, 0.5);
-	height: 150px;
+	height: 30%;
 	width: 100%;
-	margin-bottom: 1px;
-	margin-top: 97px;
+	position: absolute;
+	bottom: 0;
 }
 
 .box h2 {
-	margin-top: 15%;
+	margin-top: 6%;
 }
 
 .boton-inicio {
 	background-color: rgba(89, 126, 184, .0);
 	border: 2px solid #FFF;
-	margin-top: 18%;
+	margin-top: 6%;
 }
 
 #servicios {
@@ -87,10 +96,10 @@ li a {
 
 .img-circle {
 	margin: auto;
-	height: 160px;
-	width: 160px;
-	box-shadow: 5px 7px 25px rgba(136, 136, 136, 0.34);
-	padding-top: 14%;
+	height: 140px;
+	width: 140px;
+	box-shadow: 5px 7px 25px rgba(136, 136, 136, 0.3);
+	padding-top: 46px;
 }
 
 .box-icon h3 {
@@ -220,6 +229,14 @@ footer p {
 
 a:hover {
 	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #5281BB !important;
+}
+
+footer a:hover {
+	color: #FFF;
 }
 
 /*Contacto*/
